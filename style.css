@@ -1,0 +1,87 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(217, 253, 45, 1) 100%);
+}
+
+th,
+td,
+caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+
+/*  ? Animation for CSS 
+@keyframes blink {
+    0% {
+        background: violet;
+    }
+    15% {
+        background: indigo;
+    }
+    30% {
+        background: blue;
+    }
+    42% {
+        background: green;
+    }
+    58% {
+        background: yellow;
+    }
+    70% {
+        background: orange;
+    }
+    85% {
+        background: red;
+    }
+    100% {
+        background: violet;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        background: violet;
+    }
+    15% {
+        background: indigo;
+    }
+    30% {
+        background: blue;
+    }
+    42% {
+        background: green;
+    }
+    58% {
+        background: yellow;
+    }
+    70% {
+        background: orange;
+    }
+    85% {
+        background: red;
+    }
+    100% {
+        background: violet;
+    }
+}
+
+div {
+    height: 100px;
+    width: 800px;
+    border: 1px solid black;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite;
+} */
